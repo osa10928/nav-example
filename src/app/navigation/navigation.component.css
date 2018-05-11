@@ -1,0 +1,36 @@
+nav {
+	width: 100%;
+	background-color: transparent;
+	display: flex;
+	flex-wrap: nowrap;
+	position: fixed;
+	top: 0;
+}
+
+.scrolling {
+	background-color: #aaa !important;
+	filter: drop-shadow(0 -6mm 4mm rgb(160, 0, 210));
+}
+
+#icon {
+	width: 20%;
+	max-width: 30px;
+	border-radius: 50%;
+}
+
+img {
+	overflow: hidden;
+}
+
+#nav-options {
+	display: flex;
+	flex-wrap: nowrap;
+	list-style: none;
+	-webkit-padding-start: 0;
+	margin-left: auto;
+}
+
+.img-responsive {
+	width: 100%;
+	height: auto;
+}
