@@ -23,7 +23,7 @@ export class NavigationComponent implements OnInit {
 
   	timer = setTimeout(() => {
   		nav.classList.remove('scrolling')
-  	} 800)
+  	}, 800)
   }
 
 }
